@@ -1,0 +1,23 @@
+###
+GET http://localhost:3000/api/homeworks
+###
+POST http://localhost:3000/api/homeworks
+Content-Type: application/json
+
+{
+    "name":"driver dump truck - David jose"
+}
+###
+GET http://localhost:3000/api/homeworks/61b4bff55a016004f69fec7b
+
+###
+DELETE http://localhost:3000/api/homeworks/61b4bff55a016004f69fec7b
+
+###
+PUT http://localhost:3000/api/homeworks/61b4bd5f5a016004f69fec71
+Content-Type: application/json
+
+{
+    "name":"desarrollando - Juan Camilo"
+}
+
